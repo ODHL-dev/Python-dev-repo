@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Quelle est la capitale de la France?",
+      "options": [
+        "Paris",
+        "Londres",
+        "Berlin",
+        "Madrid"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Combien de continents y a-t-il?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "Quel est le plus grand océan du monde?",
+      "options": [
+        "Atlantique",
+        "Indien",
+        "Arctique",
+        "Pacifique"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "question": "Qui a peint la Joconde?",
+      "options": [
+        "Van Gogh",
+        "Picasso",
+        "Leonard de Vinci",
+        "Michel-Ange"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "Quelle est la planète la plus proche du soleil?",
+      "options": [
+        "Terre",
+        "Venus",
+        "Mars",
+        "Mercure"
+      ],
+      "correct_answer": 3
+    }
+  ]
+}
