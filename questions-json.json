@@ -1,0 +1,154 @@
+{
+  "questions": [
+    {
+      "question": "Comment déclare-t-on une variable en Python?",
+      "options": ["var nom = valeur", "dim nom as valeur", "nom = valeur", "let nom = valeur"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Quel est le type de la variable x après l'instruction : x = 5?",
+      "options": ["str", "int", "float", "boolean"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Comment déclarer une liste vide en Python?",
+      "options": ["list()", "[]", "array()", "{}"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Comment accéder au premier élément d'une liste nommée 'ma_liste'?",
+      "options": ["ma_liste[0]", "ma_liste[1]", "ma_liste(0)", "ma_liste.first()"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Quelle instruction permet de définir une fonction en Python?",
+      "options": ["function", "def", "fun", "method"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Comment appeler une fonction nommée 'calculer' avec un paramètre?",
+      "options": ["calculer.call(5)", "call calculer(5)", "calculer(5)", "fonction calculer(5)"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Comment définir une valeur par défaut pour un paramètre de fonction?",
+      "options": ["def ma_fonction(param = 10):", "def ma_fonction(param: default=10):", "def ma_fonction(param, default=10):", "def ma_fonction(default param=10):"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Quel est le résultat de l'expression : 10 % 3?",
+      "options": ["3.33", "3", "1", "0"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Comment créer un dictionnaire vide en Python?",
+      "options": ["dict()", "{}", "[]", "set()"],
+      "correct_answer": 1 
+    },
+    {
+      "question": "Quelle méthode permet d'ajouter un élément à la fin d'une liste?",
+      "options": ["append()", "add()", "insert()", "push()"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Comment vérifier si une variable x est égale à 5?",
+      "options": ["x = 5", "x == 5", "x === 5", "x.equals(5)"],
+      "correct_answer": 1
+    },
+    {
+      "question": "Quelle instruction permet d'importer un module en Python?",
+      "options": ["include", "require", "import", "using"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Comment créer une chaîne de caractères multi-lignes?",
+      "options": ["\"\"\"texte multi-lignes\"\"\"", "\\'texte multi-lignes\\'", "\"texte \\n multi-lignes\"", "[\"ligne1\", \"ligne2\"]"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Quelle fonction permet de convertir une chaîne en nombre entier?",
+      "options": ["str()", "integer()", "int()", "parse()"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Comment obtenir la longueur d'une liste nommée 'ma_liste'?",
+      "options": ["ma_liste.size()", "ma_liste.length()", "len(ma_liste)", "count(ma_liste)"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Quelle est la syntaxe correcte pour une compréhension de liste?",
+      "options": ["[x for x in range(10)]", "for x in range(10): [x]", "[for x in range(10)]", "list(for x in range(10))"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Comment définir une fonction lambda en Python?",
+      "options": ["lambda x: x * 2", "def lambda(x): return x * 2", "function(x) { return x * 2; }", "x => x * 2"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Comment attraper une exception en Python?",
+      "options": ["catch Exception as e:", "try-catch (Exception e):", "try-except Exception as e:", "on error e:"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Quelle est la méthode pour formater une chaîne avec des variables?",
+      "options": ["'Bonjour, {}'.format(nom)", "'Bonjour, ' + nom", "f'Bonjour, {nom}'", "Toutes ces réponses sont correctes"],
+      "correct_answer": 3
+    },
+    {
+      "question": "Comment accéder à une valeur dans un dictionnaire avec la clé 'nom'?",
+      "options": ["dictionnaire['nom']", "dictionnaire.nom", "dictionnaire.get('nom')", "A et C sont correctes"],
+      "correct_answer": 3
+    },
+    {
+      "question": "Quelle instruction permet de sortir d'une boucle?",
+      "options": ["exit", "return", "break", "continue"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Comment définir une fonction qui retourne une valeur?",
+      "options": ["def fonction(): return valeur", "def fonction(): result valeur", "function() -> valeur", "def fonction() -> valeur:"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Quelle méthode de chaîne divise une chaîne en liste selon un séparateur?",
+      "options": ["slice()", "cut()", "split()", "divide()"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Comment créer une boucle qui parcourt les éléments d'une liste 'fruits'?",
+      "options": ["for i = 0 to len(fruits):", "foreach fruit in fruits:", "for fruit in fruits:", "loop through fruits:"],
+      "correct_answer": 2
+    },
+    {
+      "question": "Comment vérifier si un élément existe dans une liste?",
+      "options": ["if element in liste:", "if liste.contains(element):", "if liste.has(element):", "if element.exists(liste):"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Quel opérateur permet de vérifier si deux variables pointent vers le même objet?",
+      "options": ["==", "is", "same", "==="],
+      "correct_answer": 1
+    },
+    {
+      "question": "Comment créer une liste de nombres de 0 à 9?",
+      "options": ["list(0-9)", "range(0, 10)", "[0:9]", "list(range(10))"],
+      "correct_answer": 3
+    },
+    {
+      "question": "Quelle méthode permet de joindre les éléments d'une liste en une chaîne?",
+      "options": ["''.join(liste)", "concat(liste)", "liste.toString()", "str(liste)"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Comment définir une fonction qui accepte un nombre variable d'arguments?",
+      "options": ["def fonction(*args):", "def fonction(args[]):", "def fonction(...args):", "def fonction(args...)"],
+      "correct_answer": 0
+    },
+    {
+      "question": "Comment créer un ensemble (set) vide en Python?",
+      "options": ["{}", "set()", "[]", "new Set()"],
+      "correct_answer": 1
+    }
+  ]
+}

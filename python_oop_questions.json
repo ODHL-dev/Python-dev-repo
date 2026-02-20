@@ -1,0 +1,189 @@
+{
+  "questions": [
+    {
+      "question": "Comment définit-on une classe en Python?",
+      "options": ["class MaClasse:", "def MaClasse():", "create MaClasse:", "struct MaClasse:"],
+      "correct_answer": 0,
+      "explication": "En Python, on utilise le mot-clé 'class' suivi du nom de la classe pour définir une nouvelle classe."
+    },
+    {
+      "question": "Comment crée-t-on un objet à partir d'une classe nommée 'Personne'?",
+      "options": ["p = new Personne()", "p = Personne()", "p = create Personne()", "p = instance(Personne)"],
+      "correct_answer": 1,
+      "explication": "En Python, on crée un objet en écrivant simplement le nom de la classe suivi de parenthèses, comme si on appelait une fonction."
+    },
+    {
+      "question": "Quelle méthode est automatiquement appelée lors de la création d'un nouvel objet?",
+      "options": ["__new__()", "__init__()", "__create__()", "__start__()"],
+      "correct_answer": 1,
+      "explication": "La méthode __init__() est le constructeur en Python. Elle est appelée automatiquement quand on crée un nouvel objet et sert à initialiser ses attributs."
+    },
+    {
+      "question": "Comment déclare-t-on un attribut d'instance en Python?",
+      "options": ["attribute nom", "self.nom = valeur", "nom = valeur", "this.nom = valeur"],
+      "correct_answer": 1,
+      "explication": "Les attributs d'instance sont déclarés avec le préfixe 'self.' suivi du nom de l'attribut, généralement dans la méthode __init__()."
+    },
+    {
+      "question": "Comment accède-t-on à l'instance courante dans une méthode de classe?",
+      "options": ["this", "self", "instance", "me"],
+      "correct_answer": 1,
+      "explication": "En Python, le premier paramètre d'une méthode d'instance est conventionnellement nommé 'self' et représente l'objet lui-même."
+    },
+    {
+      "question": "Comment appeler une méthode d'un objet nommé 'voiture'?",
+      "options": ["voiture->demarrer()", "voiture.demarrer()", "demarrer(voiture)", "call voiture.demarrer()"],
+      "correct_answer": 1,
+      "explication": "Pour appeler une méthode d'un objet, on utilise la notation avec un point: nom_objet.nom_methode()"
+    },
+    {
+      "question": "Quelle est la structure typique d'une méthode d'instance?",
+      "options": [
+        "def methode(self, parametres):", 
+        "def methode(parametres):", 
+        "method methode(self, parametres):", 
+        "function methode(self, parametres):"
+      ],
+      "correct_answer": 0,
+      "explication": "Une méthode d'instance commence par 'def', puis son nom, et a toujours 'self' comme premier paramètre pour représenter l'instance de l'objet."
+    },
+    {
+      "question": "Qu'est-ce que le constructeur d'une classe?",
+      "options": [
+        "Une méthode qui détruit l'objet", 
+        "Une méthode qui crée une nouvelle classe", 
+        "Une méthode qui initialise un nouvel objet", 
+        "Une fonction qui vérifie si la classe est valide"
+      ],
+      "correct_answer": 2,
+      "explication": "Le constructeur (méthode __init__ en Python) est appelé lors de la création d'un objet et sert à initialiser ses attributs."
+    },
+    {
+      "question": "Comment définir une classe qui hérite de la classe 'Animal'?",
+      "options": [
+        "class Chien extends Animal:", 
+        "class Chien(Animal):", 
+        "class Chien inherits Animal:", 
+        "class Chien : Animal:"
+      ],
+      "correct_answer": 1,
+      "explication": "En Python, l'héritage se fait en mettant le nom de la classe parente entre parenthèses après le nom de la classe enfant."
+    },
+    {
+      "question": "Quel est l'intérêt principal de l'héritage?",
+      "options": [
+        "Rendre le code plus rapide", 
+        "Réutiliser du code existant", 
+        "Créer des objets plus petits", 
+        "Simplifier les méthodes"
+      ],
+      "correct_answer": 1,
+      "explication": "L'héritage permet à une classe d'acquérir les propriétés et méthodes d'une autre classe, favorisant la réutilisation du code."
+    },
+    {
+      "question": "Comment accéder à un attribut nommé 'nom' d'un objet appelé 'etudiant'?",
+      "options": ["etudiant->nom", "etudiant.nom", "nom(etudiant)", "etudiant[nom]"],
+      "correct_answer": 1,
+      "explication": "On accède aux attributs d'un objet avec la notation pointée: objet.attribut"
+    },
+    {
+      "question": "Comment appeler une méthode de la classe parente depuis la classe enfant?",
+      "options": [
+        "parent.methode()", 
+        "super().methode()", 
+        "self.parent.methode()", 
+        "base.methode()"
+      ],
+      "correct_answer": 1,
+      "explication": "La fonction super() permet d'accéder aux méthodes de la classe parente, ce qui est utile pour étendre leur comportement."
+    },
+    {
+      "question": "Qu'est-ce qu'un attribut de classe en Python?",
+      "options": [
+        "Un attribut défini en dehors de toute méthode, partagé par toutes les instances", 
+        "Un attribut défini avec self dans __init__", 
+        "Un attribut qui ne peut pas être modifié", 
+        "Un attribut accessible uniquement par la classe elle-même"
+      ],
+      "correct_answer": 0,
+      "explication": "Un attribut de classe est défini directement dans la classe, en dehors des méthodes, et est partagé par toutes les instances de cette classe."
+    },
+    {
+      "question": "Quelle méthode spéciale permet d'afficher un objet de façon lisible?",
+      "options": [
+        "__str__(self)", 
+        "__print__(self)", 
+        "__display__(self)", 
+        "toString(self)"
+      ],
+      "correct_answer": 0,
+      "explication": "La méthode __str__() est appelée par print() et str() pour convertir un objet en chaîne de caractères lisible."
+    },
+    {
+      "question": "Qu'est-ce que l'encapsulation en POO?",
+      "options": [
+        "Le regroupement des données et des méthodes qui les manipulent dans une même unité", 
+        "La création de plusieurs objets à partir d'une classe", 
+        "L'héritage entre classes", 
+        "La possibilité d'avoir plusieurs méthodes de même nom"
+      ],
+      "correct_answer": 0,
+      "explication": "L'encapsulation consiste à regrouper les données (attributs) et les fonctions qui les manipulent (méthodes) dans une même unité: la classe."
+    },
+    {
+      "question": "Quel est le symbole de convention pour indiquer qu'un attribut est 'privé' en Python?",
+      "options": [
+        "private", 
+        "_", 
+        "#", 
+        "!"
+      ],
+      "correct_answer": 1,
+      "explication": "Par convention, un attribut préfixé par un underscore (_) indique qu'il est considéré comme 'protégé' et ne devrait pas être utilisé directement hors de la classe."
+    },
+    {
+      "question": "Qu'est-ce qu'une instance de classe?",
+      "options": [
+        "Un synonyme pour une classe", 
+        "Un objet créé à partir d'une classe", 
+        "Une méthode de classe", 
+        "Une version améliorée d'une classe"
+      ],
+      "correct_answer": 1,
+      "explication": "Une instance est un objet spécifique créé à partir d'une classe. Par exemple, si 'Voiture' est une classe, 'ma_voiture' est une instance de cette classe."
+    },
+    {
+      "question": "Quelle est la différence principale entre une fonction et une méthode?",
+      "options": [
+        "Il n'y a pas de différence", 
+        "Une méthode appartient à une classe et a accès à l'instance via 'self'", 
+        "Une fonction est plus rapide qu'une méthode", 
+        "Une méthode ne peut pas avoir de paramètres"
+      ],
+      "correct_answer": 1,
+      "explication": "Une méthode est une fonction définie à l'intérieur d'une classe qui a accès à l'instance via son premier paramètre conventionnellement nommé 'self'."
+    },
+    {
+      "question": "Comment vérifier si un objet est une instance d'une classe donnée?",
+      "options": [
+        "obj.isinstance(ClasseName)", 
+        "isinstance(obj, ClasseName)", 
+        "obj.type() == ClasseName", 
+        "ClasseName.istype(obj)"
+      ],
+      "correct_answer": 1,
+      "explication": "La fonction isinstance(objet, classe) permet de vérifier si un objet est une instance d'une classe spécifique."
+    },
+    {
+      "question": "Quel est l'avantage principal de la Programmation Orientée Objet?",
+      "options": [
+        "Elle rend le code plus rapide", 
+        "Elle organise le code en unités logiques qui représentent des concepts du monde réel", 
+        "Elle utilise moins de mémoire", 
+        "Elle ne nécessite pas de fonctions"
+      ],
+      "correct_answer": 1,
+      "explication": "La POO permet d'organiser le code en représentant des concepts du monde réel sous forme d'objets avec leurs attributs et comportements."
+    }
+  ]
+}
